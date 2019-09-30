@@ -880,12 +880,15 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_stm32f407xx.d -o.\objects\startup_stm32f407xx
-.o -I.\RTE\_Target_1 -IC:\Users\vkaiser\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1
-\CMSIS\Core\Include -IC:\Users\vkaiser\AppData\Local\Arm\Packs\Keil\STM32F4xx_D
-FP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__EVAL SETA 1"
- --predefine="__UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1" --predefin
-e="STM32F407xx SETA 1" --list=.\listings\startup_stm32f407xx.lst RTE\Device\STM
-32F407VGTx\startup_stm32f407xx.s
+.o -I.\RTE\Device\STM32F407VGTx -I.\RTE\_Target_1 -IC:\Users\vkaiser\AppData\Lo
+cal\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include -IC:\Users\vkaiser\AppData\Loc
+al\Arm\Packs\Keil\MDK-Middleware\7.8.0\Board -IC:\Users\vkaiser\AppData\Local\A
+rm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I
+C:\Users\vkaiser\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\STM3
+2F4xx_HAL_Driver\Inc --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION
+ SETA 527" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --list=.
+\listings\startup_stm32f407xx.lst RTE\Device\STM32F407VGTx\startup_stm32f407xx.
+s
 
 
 
